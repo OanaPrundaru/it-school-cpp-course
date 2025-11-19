@@ -15,12 +15,9 @@
                 "files.watcherExclude": {
                     "**/target/**": true
                 },
-                "[json]": {
-                    "editor.defaultFormatter": "esbenp.prettier-vscode",
-                    "editor.formatOnSave": true
-                },
-                "[yaml]": {
-                    "editor.defaultFormatter": "esbenp.prettier-vscode",
+                "C_Cpp.clang_format_fallbackStyle": "Visual Studio",
+                "C_Cpp.clang_format_style" : "Visual Studio",
+                "[cpp]": {
                     "editor.formatOnSave": true
                 }
             },
@@ -28,10 +25,9 @@
                 "gruntfuggly.todo-tree", // ToDo
                 "ms-vscode.cpptools",
                 "ms-vscode.cpptools-extension-pack",
-                "ms-vscode.cmake-tools",
-                
+                "ms-vscode.cmake-tools"
             ]
         }
-    },
+    }
     // "postCreateCommand": ""
 }
