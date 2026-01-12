@@ -1,0 +1,51 @@
+
+
+#include <iterator>
+#include <iostream>
+#include <vector>
+#include <array>
+#include <locale>
+#include <climits>
+#include <numeric>
+#include <string>
+
+
+ 
+int main()
+{
+        int array[2][5] = {{ 35, 9, 20, 41, 67}, { 27, 75, 17, 51, 42}};
+        int rows = std::size(array);
+        int columns = std::size(array[0]);
+        int min_size = INT_MAX;
+        int max_size = INT_MIN;
+        int sum = 0;
+
+        int array_size = std::size(array);
+        
+       for(int i = 0; i < rows; i++)
+       {
+           for(int j = 0; j < columns ; j++)
+           {
+             int element = array[i][j];
+             
+             if(array[i][j] > max_size)
+             { 
+                 max_size = array[i][j];
+                 
+             }
+             else if(array[i][j] < min_size)
+             {
+                min_size = array[i][j];
+             }
+             
+             sum = sum + element;
+             
+       }
+       }
+       
+        std::cout<<"Valoarea minimă este : "<<min_size<<std::endl;
+        std::cout<<"Valoarea maximă este : "<<max_size<<std::endl;
+        std::cout<<"Suma elementelor este : "<<sum<<std::endl;
+        
+       return 0;
+}
