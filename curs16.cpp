@@ -24,7 +24,12 @@ int main()
     //         std::cout << "capacity : " << testString.capacity() <<std::endl;
     // }
     // testString.clear();
+
     std::vector<int> testVector = {0, 1, 2};
+
+    for (const int& i :testVector) {
+        std::cout << i << std::endl;
+    }
 
     std::cout << "size: " << testVector.size() << std::endl;
     std::cout << "capacity : " << testVector.capacity() <<std::endl;
