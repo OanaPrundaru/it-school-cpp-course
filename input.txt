@@ -1,0 +1,10 @@
+The Mud March, or United Procession of Women, was a peaceful demonstration in London on 9 February 1907 organised by the National Union of Women's Suffrage Societies (NUWSS). 
+In which more than three thousand women marched from Hyde Park Corner to the Strand in support of women's suffrage.   
+
+Women from all classes participated in the largest public demonstration supporting women's suffrage seen to that date. It acquired the name "Mud March" from the day's weather; incessant heavy rain left the marchers drenched and mud-spattered. 
+The NUWSS and other groups organised the march to coincide with the opening of Parliament. 
+In computing, the robustness principle is a design guideline for software that states: "be conservative in what you do, be liberal in what you accept from others". 
+It is often reworded as: "be conservative in what you send, be liberal in what you accept".
+The principle is also known as Postel's law, after Jon Postel, who used the wording in an early specification of TCP.[1]
+The principle is also known as Postel's law, after Jon Postel, who used the wording in an early specification of TCP.[1]
+In other words, programs that send messages to other machines (or to other programs on the same machine) should conform completely to the specifications, but programs that receive messages should accept non-conformant input as long as the meaning is clear.
